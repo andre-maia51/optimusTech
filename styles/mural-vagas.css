@@ -1,0 +1,45 @@
+.mural-vagas {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.secao-vaga {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: auto;
+    width: 50%;
+
+}
+
+.secao-vaga__titulo {
+    color: var(--cinza-escuro);
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.vaga {
+    border: 1px solid var(--cinza-borda);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1.5rem;
+}
+
+.vaga__titulo {
+    color: var(--cinza-escuro);
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.vaga__informacoes {
+    display: flex;
+    gap: 2rem;
+}
+
+.vaga__informacoes p {
+    color: var(--cinza-claro);
+    font-weight: 500;
+}

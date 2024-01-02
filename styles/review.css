@@ -1,0 +1,32 @@
+.review__lista{
+    display: flex;
+    justify-content: space-around;
+    gap: 5rem;
+    list-style: none;
+    width: 90%;
+    margin: 0 auto 6rem auto;
+}
+
+.review__lista__item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.item__titulo {
+    color: var(--vermelho);
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.item__subtitulo {
+    color: var(--cinza-escuro);
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.item__texto {
+    color: var(--cinza-claro);
+    font-weight: 400;
+   
+}
